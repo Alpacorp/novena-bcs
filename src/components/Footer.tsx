@@ -5,7 +5,7 @@ const Footer = () => {
     <>
       <div className="footer">
         <p>
-          Todos los derechos reservados | Banco Caja Social, su banco amigo |{" "}
+          Banco Caja Social, su banco amigo |{" "}
           {new Date().getFullYear().toString()}
         </p>
       </div>
