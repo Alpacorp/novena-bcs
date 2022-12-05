@@ -1,4 +1,6 @@
 import { dayone } from "../../assets";
+import Back from "../../components/Back";
+import backButton from "../../assets/components/botonvolver.svg";
 import DayImgDate from "../../components/DayImgDate";
 import Header from "../../components/Header";
 import Slide from "../../components/Slide";
@@ -7,7 +9,7 @@ import "./Days.css";
 const DayOne = () => {
   return (
     <>
-      <Header show={true} />
+      <Header show={false} />
       <div className="steps">
         <DayImgDate image={dayone} textImage="day one" />
         <h2>Día Primero</h2>
@@ -62,6 +64,9 @@ const DayOne = () => {
             resolvió hacerse hombre también y así redimir al culpable.
           </p>
         </div>
+      </div>
+      <div style={{ textAlign: "center" }}>
+        <Back url="/" src={backButton} />
       </div>
     </>
   );
