@@ -9,16 +9,35 @@ const Peces = () => {
       <div className="steps">
         <Back url="/stepseven" src={backButtonIcon} />
         <h2>Los peces en el río</h2>
-        <div className="video">
-          <iframe
-            width="100%"
-            height="315"
-            src="https://www.youtube.com/embed/yfpBMrJZt1Q"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
+        <div className="text-sing">
+          <p>Pero mira cómo beben los peces en el río</p>
+          <p>Pero mira cómo beben por ver al Dios nacido</p>
+          <p>Beben y beben y vuelven a beber</p>
+          <p>Los peces en el río por ver a Dios nacer.</p>
+        </div>
+        <div className="text-sing">
+          <p>La Virgen está lavando</p>
+          <p>Y tendiendo en el romero</p>
+          <p>Los pajaritos cantando</p>
+          <p>Y el romero floreciendo.</p>
+        </div>
+        <div className="text-sing">
+          <p>Pero mira cómo beben los peces en el río</p>
+          <p>Pero mira cómo beben por ver al Dios nacido</p>
+          <p>Beben y beben y vuelven a beber</p>
+          <p>Los peces en el río por ver a Dios nacer.</p>
+        </div>
+        <div className="text-sing">
+          <p>La Virgen se está peinando</p>
+          <p>Entre cortina y cortina</p>
+          <p>Los cabellos son de oro</p>
+          <p>Y el peine de plata fina.</p>
+        </div>
+        <div className="text-sing">
+          <p>Pero mira cómo beben los peces en el río</p>
+          <p>Pero mira cómo beben por ver al Dios nacido</p>
+          <p>Beben y beben y vuelven a beber</p>
+          <p>Los peces en el río por ver a Dios nacer.</p>
         </div>
       </div>
     </>

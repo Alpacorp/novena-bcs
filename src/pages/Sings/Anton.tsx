@@ -10,16 +10,47 @@ const Anton = () => {
       <div className="steps">
         <Back url="/stepseven" src={backButtonIcon} />
         <h2>Anton Tiruliruliru</h2>
-        <div className="video">
-          <iframe
-            width="100%"
-            height="315"
-            src="https://www.youtube.com/embed/AJlU2aD4Rag"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
+        <div className="text-sing">
+          <p>Antón Tiruliru Liru</p>
+          <p>Antón Tiruliru-rá</p>
+          <p>Antón Tiruliru Liru</p>
+          <p>Antón Tiruliru-rá</p>
+        </div>
+        <div className="text-sing">
+          <p>Jesús al pesebre vamos a adorar</p>
+          <p>Jesús al pesebre vamos a adorar</p>
+        </div>
+        <div className="text-sing">
+          <p>Duérmete niño chiquito</p>
+          <p>Que la noche viene ya</p>
+          <p>Cierra pronto tus ojitos</p>
+          <p>Que el viento te arrullará</p>
+        </div>
+        <div className="text-sing">
+          <p>Antón Tiruliru Liru</p>
+          <p>Antón Tiruliru-rá</p>
+          <p>Antón Tiruliru Liru</p>
+          <p>Antón Tiruliru-rá</p>
+        </div>
+        <div className="text-sing">
+          <p>Jesús al pesebre vamos a adorar</p>
+          <p>Jesús al pesebre vamos a adorar</p>
+        </div>
+        <div className="text-sing">
+          <p>Duérmete niño chiquito</p>
+          <p>Que tu madre velará</p>
+          <p>Cierra pronto tus ojitos</p>
+          <p>Porque la entristecerás</p>
+        </div>
+        <div className="text-sing">
+          <p>Antón Tiruliru Liru</p>
+          <p>Antón Tiruliru-rá</p>
+          <p>Antón Tiruliru Liru</p>
+          <p>Antón Tiruliru-rá</p>
+        </div>
+        <div className="text-sing">
+          <p>Jesús al pesebre vamos a adorar</p>
+          <p>Jesús al pesebre vamos a adorar</p>
         </div>
       </div>
     </>
