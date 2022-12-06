@@ -11,11 +11,13 @@
 
 .back {
   width: 40px;
-  margin: 25px 0;
+  margin: 25px auto;
   animation: pulso 2s infinite;
   text-align: center;
   position: fixed;
-  bottom: 1px;
+  bottom: 0;
+  right: 0;
+  left: 0;
   z-index: 1;
 }
 
