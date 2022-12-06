@@ -1,4 +1,4 @@
-import { fourPage } from "../../assets";
+import { fourPage, reading } from "../../assets";
 import DayImgDate from "../../components/DayImgDate";
 import Header from "../../components/Header";
 import Slide from "../../components/Slide";
@@ -24,7 +24,15 @@ const StepFour = () => {
             su divina esencia le veo y le gozo en el Cielo.
           </p>
           <p>Amén</p>
-          <small>Padrenuestro, Avemaría y Gloria</small>
+          <small>
+            Padrenuestro, Avemaría y Gloria
+            <img
+              src={reading}
+              alt="lectura"
+              title="lectura"
+              className="reading"
+            />
+          </small>
         </div>
       </div>
     </>

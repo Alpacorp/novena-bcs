@@ -10,7 +10,7 @@
 }
 
 .back {
-  width: 60px;
+  width: 70px;
   margin: 40px auto;
   animation: pulso 2s infinite;
   text-align: center;
@@ -29,7 +29,7 @@
 
 .brandLogo {
   text-align: center;
-  margin: 30px 20px 0 20px;
+  margin: 20px 20px 0 20px;
 }
 
 .brandLogo img {

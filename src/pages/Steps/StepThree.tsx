@@ -1,4 +1,4 @@
-import { threePage } from "../../assets";
+import { reading, threePage } from "../../assets";
 import DayImgDate from "../../components/DayImgDate";
 import Header from "../../components/Header";
 import Slide from "../../components/Slide";
@@ -25,7 +25,15 @@ const StepThree = () => {
             menos indignos de verle, amarle y adorarle por toda la eternidad.
           </p>
           <p>Amén</p>
-          <small>Se reza tres veces el Avemaría</small>
+          <small>
+            Se reza tres veces el Avemaría
+            <img
+              src={reading}
+              alt="lectura"
+              title="lectura"
+              className="reading"
+            />
+          </small>
         </div>
       </div>
     </>

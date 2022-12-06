@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Navigate, Route, Routes } from "react-router-dom";
 import {
   DayEigth,
   DayFive,
@@ -28,6 +28,7 @@ const AppRouter = () => {
     <Layout>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/*" element={<Navigate to="/" />} />
         <Route path="/stepone" element={<StepOne />} />
         <Route path="/steptwo" element={<StepTwo />} />
         <Route path="/stepthree" element={<StepThree />} />
