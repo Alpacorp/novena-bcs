@@ -9,7 +9,7 @@ const Nanita = () => {
       <div className="steps">
         <Back url="/stepseven" src={backButtonIcon} />
         <h2>La Nanita Nana</h2>
-        <div className="stepText">
+        <div className="stepText sings">
           <div className="text-sing">
             <p>A la nanita nana, nanita ella, nanita ella</p>
             <p>Mi niña tiene sueño, bendito sea, bendito sea</p>

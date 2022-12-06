@@ -1,6 +1,6 @@
 import Back from "./Back";
 import "./Components.css";
-import backButton from "../assets/components/botonvolver.svg";
+import backButton from "../assets/components/volver.svg";
 
 const Header = ({ show }: any) => {
   const showBack = show;

@@ -9,7 +9,7 @@ const Tutaina = () => {
       <div className="steps">
         <Back url="/stepseven" src={backButtonIcon} />
         <h2>Tutaina</h2>
-        <div className="stepText">
+        <div className="stepText sings">
           <div className="text-sing">
             <p>Tutaina tuturuma</p>
             <p>Tutaina tuturumaina</p>

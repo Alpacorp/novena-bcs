@@ -11,19 +11,19 @@ const StepSeven = () => {
         <DayImgDate image={sevenPage} textImage="step seven" />
         <h2>Elige un villancico para cantar</h2>
         <div className="sings">
-          <Link to="/anton" id="green">
+          <Link to="/anton" id="anton">
             Anton Tiruliruliru
           </Link>
-          <Link to="/tutaina" id="clearGreen">
+          <Link to="/tutaina" id="tutaina">
             Tutaina
           </Link>
-          <Link to="/nanita" id="red">
+          <Link to="/nanita" id="nanita">
             La Nanita Nana
           </Link>
-          <Link to="/campana" id="orange">
+          <Link to="/campana" id="campana">
             Campana sobre campana
           </Link>
-          <Link to="/peces" id="brown">
+          <Link to="/peces" id="peces">
             Los peces en el río
           </Link>
         </div>

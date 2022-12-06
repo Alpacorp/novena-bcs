@@ -29,6 +29,7 @@
 
 .steps h2 {
   font-size: 20px;
+  font-weight: 500;
 }
 
 .steps .stepText {
@@ -43,6 +44,10 @@
   letter-spacing: 1px;
   position: relative;
   z-index: 2;
+}
+
+.steps .stepText.sings {
+  height: 330px;
 }
 
 .steps .stepText .text-sing {
@@ -62,10 +67,13 @@
 }
 
 .steps small {
-  color: brown;
-  font-size: 13px;
   line-height: normal;
   letter-spacing: normal;
+}
+
+.reading {
+  width: 30px;
+  margin-left: 10px;
 }
 
 .steps .sings {
@@ -88,25 +96,25 @@
   border-radius: 20px;
 }
 
-#green {
-  background-color: #439555;
+#anton {
+  background-color: #0071A0;
 }
 
-#clearGreen {
-  background-color: #BCC585;
-  color: #439555;
+#tutaina {
+  background-color: #0081B6;
+  /* color: #439555; */
 }
 
-#red {
-  background-color: #CA3029;
+#nanita {
+  background-color: #0091CD;
 }
 
-#orange {
-  background-color: #E9AE3D;
+#campana {
+  background-color: #00A1E4;
 }
 
-#brown {
-  background-color: #C3893E;
+#peces {
+  background-color: #00B5FF;
 }
 
 .buttons {
@@ -116,9 +124,9 @@
 }
 
 .buttonBefore, .buttonAfter{
-  height: 50px;
+  height: 23px;
   text-align: center;
-  animation: pulso 2s infinite;
+  animation: pulso 4s infinite;
   margin: 0 10px;
 }
 

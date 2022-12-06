@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import DayImgDate from "../../components/DayImgDate";
 import Slide from "../../components/Slide";
 import { data } from "../../data/data.json";

@@ -1,4 +1,4 @@
-import { onePage } from "../../assets";
+import { onePage, reading } from "../../assets";
 import DayImgDate from "../../components/DayImgDate";
 import Header from "../../components/Header";
 import Slide from "../../components/Slide";
@@ -29,7 +29,15 @@ const StepOne = () => {
             eternamente.
           </p>
           <p>Amén</p>
-          <small>Se reza tres veces el Gloria al Padre</small>
+          <small>
+            Se reza tres veces el Gloria al Padre
+            <img
+              src={reading}
+              alt="lectura"
+              title="lectura"
+              className="reading"
+            />
+          </small>
         </div>
       </div>
     </>

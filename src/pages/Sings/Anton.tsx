@@ -10,7 +10,7 @@ const Anton = () => {
       <div className="steps">
         <Back url="/stepseven" src={backButtonIcon} />
         <h2>Anton Tiruliruliru</h2>
-        <div className="stepText">
+        <div className="stepText sings">
           <div className="text-sing">
             <p>Antón Tiruliru Liru</p>
             <p>Antón Tiruliru-rá</p>

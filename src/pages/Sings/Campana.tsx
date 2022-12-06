@@ -9,7 +9,7 @@ const Campana = () => {
       <div className="steps">
         <Back url="/stepseven" src={backButtonIcon} />
         <h2>Campana sobre campana</h2>
-        <div className="stepText">
+        <div className="stepText sings">
           <div className="text-sing">
             <p>Campana sobre campana</p>
             <p>Y sobre campana una</p>

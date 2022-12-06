@@ -9,7 +9,7 @@ const Peces = () => {
       <div className="steps">
         <Back url="/stepseven" src={backButtonIcon} />
         <h2>Los peces en el río</h2>
-        <div className="stepText">
+        <div className="stepText sings">
           <div className="text-sing">
             <p>Pero mira cómo beben los peces en el río</p>
             <p>Pero mira cómo beben por ver al Dios nacido</p>
