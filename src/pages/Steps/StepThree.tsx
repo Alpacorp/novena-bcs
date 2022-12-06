@@ -8,7 +8,7 @@ const StepThree = () => {
     <>
       <Header show={true} />
       <div className="steps">
-        <DayImgDate image={threePage} textImage="step three" />
+        <DayImgDate src={threePage} alt="Paso 3" />
         <h2>Oración a la Santísima Virgen</h2>
         <Slide />
         <div className="stepText">

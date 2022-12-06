@@ -22,7 +22,7 @@ const StepFive = () => {
     <>
       <Header show={true} />
       <div className="steps">
-        <DayImgDate image={fivePage} textImage="step five" />
+        <DayImgDate src={fivePage} alt="Paso 5" />
         <h2>Los Gozos</h2>
         <Slide />
         {counter === 0 ? "" : `${counter} de 12`}
@@ -44,7 +44,8 @@ const StepFive = () => {
                 src={beforeIcon}
                 onClick={before}
                 className="buttonBefore"
-                alt="icon before"
+                alt="Anterior"
+                title="Anterior"
               />
             )}
             {counter < 12 ? (
@@ -52,7 +53,8 @@ const StepFive = () => {
                 src={afterIcon}
                 onClick={next}
                 className="buttonAfter"
-                alt="icon after"
+                alt="siguente"
+                title="Siguente"
               />
             ) : (
               ""

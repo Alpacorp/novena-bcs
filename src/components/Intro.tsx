@@ -1,7 +1,8 @@
 import BrandLogo from "./BrandLogo";
 import { bcs, mainFamily, novenaIntro } from "../assets";
+import { FC } from "react";
 
-const Intro = () => {
+const Intro: FC = () => {
   return (
     <>
       <div className="introModal">

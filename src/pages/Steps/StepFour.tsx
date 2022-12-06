@@ -8,7 +8,7 @@ const StepFour = () => {
     <>
       <Header show={true} />
       <div className="steps">
-        <DayImgDate image={fourPage} textImage="step four" />
+        <DayImgDate src={fourPage} alt="Paso 4" />
         <h2>Oración a San José</h2>
         <Slide />
         <div className="stepText">

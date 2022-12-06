@@ -8,7 +8,7 @@ const DayFive = () => {
     <>
       <Header show={true} />
       <div className="steps">
-        <DayImgDate image={dayfive} textImage="day five" />
+        <DayImgDate src={dayfive} alt="20 de diciembre" />
         <h2>Día Quinto</h2>
         <Slide />
         <div className="stepText">

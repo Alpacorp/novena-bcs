@@ -1,11 +1,18 @@
+import { FC } from "react";
 import { Link } from "react-router-dom";
 import "./Components.css";
 
-const Back = (url: string | any) => {
+interface BackProps {
+  url?: any;
+  src?: string;
+  alt?: string;
+}
+
+const Back: FC<BackProps> = ({ src, url, alt }) => {
   return (
     <>
-      <Link to={url.url}>
-        <img src={url.src} alt="volver" className="back" />
+      <Link to={url}>
+        <img src={src} alt="Volver" title="Volver" className="back" />
       </Link>
     </>
   );

@@ -8,7 +8,7 @@ const StepSix = () => {
     <>
       <Header show={true} />
       <div className="steps">
-        <DayImgDate image={sixPage} textImage="step six" />
+        <DayImgDate src={sixPage} alt="Paso 6" />
         <h2>Oración al Niño Jesús</h2>
         <Slide />
         <div className="stepText">

@@ -1,8 +1,15 @@
-const DayImgDate = (image: any) => {
+import { FC } from "react";
+
+interface DayImgDateProps {
+  src?: string;
+  alt?: string;
+}
+
+const DayImgDate: FC<DayImgDateProps> = ({ src, alt }) => {
   return (
     <>
       <div className="dayImg">
-        <img src={image.image} alt={image.textImage} />
+        <img src={src} alt={alt} title={alt} />
       </div>
     </>
   );

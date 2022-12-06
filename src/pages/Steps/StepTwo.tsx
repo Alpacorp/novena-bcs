@@ -20,35 +20,35 @@ const StepTwo = () => {
     <>
       <Header show={true} />
       <div className="steps">
-        <DayImgDate image={twoPage} textImage="step two" />
+        <DayImgDate src={twoPage} alt="Paso 2" />
         <h2>Elige la lectura para hoy</h2>
         <div className="calendar">
           <Link to="/dayone">
-            <DayImgDate image={dayone} textImage="day one" />
+            <DayImgDate src={dayone} alt="16 de diciembre" />
           </Link>
           <Link to="/daytwo">
-            <DayImgDate image={daytwo} textImage="day two" />
+            <DayImgDate src={daytwo} alt="17 de diciembre" />
           </Link>
           <Link to="/daythree">
-            <DayImgDate image={daythree} textImage="day three" />
+            <DayImgDate src={daythree} alt="18 de diciembre" />
           </Link>
           <Link to="/dayfour">
-            <DayImgDate image={dayfour} textImage="day four" />
+            <DayImgDate src={dayfour} alt="19 de diciembre" />
           </Link>
           <Link to="/dayfive">
-            <DayImgDate image={dayfive} textImage="day five" />
+            <DayImgDate src={dayfive} alt="20 de diciembre" />
           </Link>
           <Link to="/daysix">
-            <DayImgDate image={daysix} textImage="day six" />
+            <DayImgDate src={daysix} alt="21 de diciembre" />
           </Link>
           <Link to="/dayseven">
-            <DayImgDate image={dayseven} textImage="day seven" />
+            <DayImgDate src={dayseven} alt="22 de diciembre" />
           </Link>
           <Link to="/dayeight">
-            <DayImgDate image={dayeight} textImage="day eight" />
+            <DayImgDate src={dayeight} alt="23 de diciembre" />
           </Link>
           <Link to="/daynine">
-            <DayImgDate image={daynine} textImage="day nine" />
+            <DayImgDate src={daynine} alt="24 de diciembre" />
           </Link>
         </div>
       </div>

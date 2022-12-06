@@ -8,7 +8,7 @@ const StepOne = () => {
     <>
       <Header show={true} />
       <div className="steps">
-        <DayImgDate image={onePage} textImage="day one" />
+        <DayImgDate src={onePage} alt="Paso 1" />
         <h2>Oración para todos los días</h2>
         <Slide />
         <div className="stepText">
