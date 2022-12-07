@@ -32,7 +32,6 @@ const StepFive = () => {
             {!dataInfo || dataInfo.length === 0 ? "" : dataInfo[0].message}
           </p>
           <small>Coro </small>
-          <br />
           <small>!Ven a nuestras almas,</small>
           <small>ven no tardes tanto!</small>
           {/* <br /> */}
