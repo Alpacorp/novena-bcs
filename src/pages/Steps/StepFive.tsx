@@ -27,7 +27,7 @@ const StepFive = () => {
         <Slide />
         {counter === 0 ? "" : `${counter} de 12`}
         <br />
-        <div className="stepText">
+        <div className="stepText gz">
           <p className="gozos">
             {!dataInfo || dataInfo.length === 0 ? "" : dataInfo[0].message}
           </p>

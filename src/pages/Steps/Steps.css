@@ -37,13 +37,17 @@
   border-radius: 10px;
   margin: 20px 0;
   padding: 20px;
-  height: 190px;
+  height: 180px;
   overflow: auto;
   text-align: left;
   font-size: 20px;
   letter-spacing: 1px;
   position: relative;
   z-index: 2;
+}
+
+.steps .stepText.gz {
+  margin: 0;
 }
 
 .steps .stepText.sings {
