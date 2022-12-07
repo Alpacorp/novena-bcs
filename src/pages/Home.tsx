@@ -19,7 +19,7 @@ const Home = () => {
   return (
     <>
       <Header show={false} />
-      <BrandLogo src={bcs} alt="Banco Caja Social, su Banco Amigo" />
+      <BrandLogo src={bcs} alt="Banco Caja Social, Su Banco Amigo" />
       <BrandLogo src={MainTitle} alt="novena de aguinaldos" />
       <p className="instructive">Sigue cada paso y reza en familia</p>
       <div className="mainMenu">

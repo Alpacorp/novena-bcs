@@ -13,7 +13,7 @@ const Layout: FC<LayoutProps> = ({ children }) => {
     setShowIntro(true);
     setTimeout(() => {
       setShowIntro(false);
-    }, 9000);
+    }, 8000);
   }, []);
 
   return (

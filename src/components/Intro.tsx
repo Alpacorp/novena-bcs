@@ -7,7 +7,7 @@ const Intro: FC = () => {
     <>
       <div className="introModal">
         <div className="introContent">
-          <BrandLogo src={bcs} />
+          <BrandLogo src={bcs} alt="Banco Caja Social, Su Banco Amigo" />
           <div className="familyImage">
             <img
               src={intro}
