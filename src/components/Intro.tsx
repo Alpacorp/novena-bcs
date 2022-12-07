@@ -1,5 +1,5 @@
 import BrandLogo from "./BrandLogo";
-import { bcs, mainFamily, novenaIntro } from "../assets";
+import { bcs, MainTitle, intro } from "../assets";
 import { FC } from "react";
 
 const Intro: FC = () => {
@@ -9,10 +9,18 @@ const Intro: FC = () => {
         <div className="introContent">
           <BrandLogo src={bcs} />
           <div className="familyImage">
-            <img src={mainFamily} alt="family" />
+            <img
+              src={intro}
+              alt="Bienvenida del Buen Vecino"
+              title="Bienvenida del Buen Vecino"
+            />
           </div>
           <div className="novenaImage">
-            <img src={novenaIntro} alt="novena" />
+            <img
+              src={MainTitle}
+              alt="Novena de Aguinaldos"
+              title="Novena de Aguinaldos"
+            />
           </div>
         </div>
       </div>

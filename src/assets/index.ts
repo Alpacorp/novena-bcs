@@ -35,6 +35,8 @@ import MainTitle from "../assets/components/main-title.svg";
 import onOff from "../assets/brands/on-off.svg";
 import bcs from "../assets/brands/Logo-Banco-Caja-Social.svg";
 import reading from "../assets/components/reading.png";
+import intro from "../assets/components/buen-vecino.gif";
+import buenVecino from "../assets/components/buen-vecino-novena.png";
 
 export {
   one,
@@ -74,4 +76,6 @@ export {
   onOff,
   bcs,
   reading,
+  intro,
+  buenVecino,
 };

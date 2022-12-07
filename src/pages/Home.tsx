@@ -10,6 +10,7 @@ import {
   seven,
   MainTitle,
   bcs,
+  buenVecino,
 } from "../assets";
 import BrandLogo from "../components/BrandLogo";
 import Header from "../components/Header";
@@ -51,6 +52,9 @@ const Home = () => {
         <Link to="/stepseven" className="menuOption">
           <img src={seven} alt="step seven" title="Paso 7, villancicos" />
         </Link>
+      </div>
+      <div className="buenVecino">
+        <img src={buenVecino} alt="buen vecino" />
       </div>
     </>
   );
