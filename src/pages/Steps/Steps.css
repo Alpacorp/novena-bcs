@@ -141,3 +141,40 @@
   to {transform: none;}
 }
 
+
+@media screen and (min-height: 400px) {
+  .steps .stepText {
+    height: 100px;
+  }
+}
+
+@media screen and (min-height: 500px) {
+  .steps .stepText {
+    height: 180px;
+  }
+}
+
+@media screen and (min-height: 600px) {
+  .steps .stepText {
+    height: 250px;
+  }
+}
+
+@media screen and (min-height: 700px) {
+  .steps .stepText {
+    height: 320px;
+  }
+}
+
+@media screen and (min-height: 800px) {
+  .steps .stepText {
+    height: 380px;
+  }
+}
+
+@media screen and (min-height: 900px) {
+  .steps .stepText {
+    height: 480px;
+  }
+}
+

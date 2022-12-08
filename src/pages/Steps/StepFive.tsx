@@ -34,7 +34,6 @@ const StepFive = () => {
           <small>Coro </small>
           <small>!Ven a nuestras almas,</small>
           <small>ven no tardes tanto!</small>
-          {/* <br /> */}
           <div className="buttons">
             {counter <= 0 ? (
               ""
