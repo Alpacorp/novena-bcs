@@ -19,7 +19,7 @@ export default defineConfig({
       rewrites: [
         {
           from: /^\/[^/]+$/,
-          to: "/",
+          to: "/404",
         },
       ],
     },
