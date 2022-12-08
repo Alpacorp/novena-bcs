@@ -22,13 +22,15 @@ import {
 } from "../pages/Steps";
 import Layout from "./Layout";
 import DayNine from "../pages/Days/DayNine";
+import NotFound from "../pages/NotFound";
 
 const AppRouter = () => {
   return (
     <Layout>
       <Routes>
+        <Route path="/*" element={<Navigate to="/404" />} />
         <Route path="/" element={<Home />} />
-        <Route path="/*" element={<Navigate to="/" />} />
+        <Route path="/404" element={<NotFound />} />
         <Route path="/stepone" element={<StepOne />} />
         <Route path="/steptwo" element={<StepTwo />} />
         <Route path="/stepthree" element={<StepThree />} />
