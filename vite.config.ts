@@ -6,9 +6,9 @@ export default defineConfig({
   plugins: [react()],
   server: {
     port: 3000, // El puerto en el que se ejecutará el servidor
-    browser: "true", // No se abrirá un navegador al iniciar el servidor
+    browser: "false", // No se abrirá un navegador al iniciar el servidor
     historyFallback: true, // Habilitar el historial de navegación
-    open: true, // No se abrirá un navegador al iniciar el servidor
+    open: false, // No se abrirá un navegador al iniciar el servidor
     spa: "client", // Configurar el servidor como una aplicación de una sola página (SPA)
     static: "dist", // La carpeta que contiene el código estático de la aplicación
     historyApiFallback: {
@@ -17,8 +17,8 @@ export default defineConfig({
       // Configurar las rutas que se deben ignorar
       rewrites: [
         {
-          from: /\/\/.*/,
-          to: (context) => context.parsedUrl.pathname,
+          from: /^\/api\/.*$/,
+          to: "/index.html",
         },
       ],
     },
