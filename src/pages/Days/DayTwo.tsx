@@ -1,9 +1,10 @@
+import React, { FC } from "react";
 import { daytwo } from "../../assets";
 import DayImgDate from "../../components/DayImgDate";
 import Header from "../../components/Header";
 import Slide from "../../components/Slide";
 
-const DayTwo = () => {
+const DayTwo: FC = () => {
   return (
     <>
       <Header show={true} />

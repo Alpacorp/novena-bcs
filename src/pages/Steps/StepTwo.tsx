@@ -1,3 +1,4 @@
+import React, { FC } from "react";
 import { Link } from "react-router-dom";
 import {
   dayone,
@@ -15,7 +16,7 @@ import DayImgDate from "../../components/DayImgDate";
 import Header from "../../components/Header";
 import "./Steps.css";
 
-const StepTwo = () => {
+const StepTwo: FC = () => {
   return (
     <>
       <Header show={true} />
