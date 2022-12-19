@@ -4,7 +4,7 @@ import react from "@vitejs/plugin-react";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/novena/",
+  base: "/",
   server: {
     port: 3000, // El puerto en el que se ejecutará el servidor
     browser: "none", // No se abrirá un navegador al iniciar el servidor
