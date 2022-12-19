@@ -24,31 +24,31 @@ const StepTwo: FC = () => {
         <DayImgDate src={twoPage} alt="Paso 2" />
         <h2>Elige la lectura para hoy</h2>
         <div className="calendar">
-          <Link to="/dayone">
+          <Link to="/novena/lectura-para-hoy/16">
             <DayImgDate src={dayone} alt="16 de diciembre" />
           </Link>
-          <Link to="/daytwo">
+          <Link to="/novena/lectura-para-hoy/17">
             <DayImgDate src={daytwo} alt="17 de diciembre" />
           </Link>
-          <Link to="/daythree">
+          <Link to="/novena/lectura-para-hoy/18">
             <DayImgDate src={daythree} alt="18 de diciembre" />
           </Link>
-          <Link to="/dayfour">
+          <Link to="/novena/lectura-para-hoy/19">
             <DayImgDate src={dayfour} alt="19 de diciembre" />
           </Link>
-          <Link to="/dayfive">
+          <Link to="/novena/lectura-para-hoy/20">
             <DayImgDate src={dayfive} alt="20 de diciembre" />
           </Link>
-          <Link to="/daysix">
+          <Link to="/novena/lectura-para-hoy/21">
             <DayImgDate src={daysix} alt="21 de diciembre" />
           </Link>
-          <Link to="/dayseven">
+          <Link to="/novena/lectura-para-hoy/22">
             <DayImgDate src={dayseven} alt="22 de diciembre" />
           </Link>
-          <Link to="/dayeight">
+          <Link to="/novena/lectura-para-hoy/23">
             <DayImgDate src={dayeight} alt="23 de diciembre" />
           </Link>
-          <Link to="/daynine">
+          <Link to="/novena/lectura-para-hoy/24">
             <DayImgDate src={daynine} alt="24 de diciembre" />
           </Link>
         </div>

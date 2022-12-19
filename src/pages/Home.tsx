@@ -23,34 +23,42 @@ const Home = () => {
       <BrandLogo src={MainTitle} alt="novena de aguinaldos" />
       <p className="instructive">Sigue cada paso y reza en familia</p>
       <div className="mainMenu">
-        <Link to="/stepone" className="menuOption">
+        <Link to="/novena/oracion-para-todos-los-dias" className="menuOption">
           <img
             src={one}
-            alt="step one"
+            alt="paso uno"
             title="Paso 1, oración para todos los días"
           />
         </Link>
-        <Link to="/steptwo" className="menuOption">
-          <img src={two} alt="step two" title="Paso 2, lectura para hoy" />
+        <Link to="/novena/lectura-para-hoy" className="menuOption">
+          <img src={two} alt="paso dos" title="Paso 2, lectura para hoy" />
         </Link>
-        <Link to="/stepthree" className="menuOption">
+        <Link to="/novena/oracion-a-la-santisima-virgen" className="menuOption">
           <img
             src={three}
-            alt="step three"
+            alt="paso tres"
             title="Paso 3, oración a la santísima virgen"
           />
         </Link>
-        <Link to="/stepfour" className="menuOption">
-          <img src={four} alt="step four" title="Paso 4, oración a San José" />
+        <Link to="/novena/oracion-a-san-jose" className="menuOption">
+          <img
+            src={four}
+            alt="paso cuatro"
+            title="Paso 4, oración a San José"
+          />
         </Link>
-        <Link to="/stepfive" className="menuOption">
-          <img src={five} alt="step five" title="Paso 5, los gozos" />
+        <Link to="/novena/los-gozos" className="menuOption">
+          <img src={five} alt="paso cinco" title="Paso 5, los gozos" />
         </Link>
-        <Link to="/stepSix" className="menuOption">
-          <img src={six} alt="step six" title="Paso 6, oración al niño Jesús" />
+        <Link to="/novena/oracion-al-nino-jesus" className="menuOption">
+          <img
+            src={six}
+            alt="paso seis"
+            title="Paso 6, oración al niño Jesús"
+          />
         </Link>
-        <Link to="/stepseven" className="menuOption">
-          <img src={seven} alt="step seven" title="Paso 7, villancicos" />
+        <Link to="/novena/villancicos" className="menuOption">
+          <img src={seven} alt="villancicos" title="Paso 7, villancicos" />
         </Link>
       </div>
       <div className="buenVecino">

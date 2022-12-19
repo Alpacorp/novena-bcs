@@ -7,7 +7,7 @@ const Tutaina = () => {
     <>
       <Header show={false} />
       <div className="steps">
-        <Back url="/stepseven" src={backButtonIcon} />
+        <Back url="/novena/villancicos" src={backButtonIcon} />
         <h2>Tutaina</h2>
         <div className="stepText sings">
           <div className="text-sing">

@@ -30,28 +30,37 @@ const AppRouter = () => {
       <Routes>
         <Route path="/*" element={<Navigate to="/404" />} />
         <Route path="/" element={<Home />} />
+        <Route path="/novena/index.html" element={<Home />} />
+        <Route path="/novena/novena" element={<Home />} />
+        <Route path="/novena/" element={<Home />} />
         <Route path="/404" element={<NotFound />} />
-        <Route path="/stepone" element={<StepOne />} />
-        <Route path="/steptwo" element={<StepTwo />} />
-        <Route path="/stepthree" element={<StepThree />} />
-        <Route path="/stepfour" element={<StepFour />} />
-        <Route path="/stepfive" element={<StepFive />} />
-        <Route path="/stepsix" element={<StepSix />} />
-        <Route path="/stepseven" element={<StepSeven />} />
-        <Route path="/anton" element={<Anton />} />
-        <Route path="/tutaina" element={<Tutaina />} />
-        <Route path="/nanita" element={<Nanita />} />
-        <Route path="/campana" element={<Campana />} />
-        <Route path="/peces" element={<Peces />} />
-        <Route path="/dayone" element={<DayOne />} />
-        <Route path="/daytwo" element={<DayTwo />} />
-        <Route path="/daythree" element={<DayThree />} />
-        <Route path="/dayfour" element={<DayFour />} />
-        <Route path="/dayfive" element={<DayFive />} />
-        <Route path="/daysix" element={<DaySix />} />
-        <Route path="/dayseven" element={<DaySeven />} />
-        <Route path="/dayeight" element={<DayEigth />} />
-        <Route path="/daynine" element={<DayNine />} />
+        <Route
+          path="/novena/oracion-para-todos-los-dias"
+          element={<StepOne />}
+        />
+        <Route path="/novena/lectura-para-hoy" element={<StepTwo />} />
+        <Route
+          path="/novena/oracion-a-la-santisima-virgen"
+          element={<StepThree />}
+        />
+        <Route path="/novena/oracion-a-san-jose" element={<StepFour />} />
+        <Route path="/novena/los-gozos" element={<StepFive />} />
+        <Route path="/novena/oracion-al-nino-jesus" element={<StepSix />} />
+        <Route path="/novena/villancicos" element={<StepSeven />} />
+        <Route path="/novena/villancicos/anton" element={<Anton />} />
+        <Route path="/novena/villancicos/tutaina" element={<Tutaina />} />
+        <Route path="/novena/villancicos/nanita" element={<Nanita />} />
+        <Route path="/novena/villancicos/campana" element={<Campana />} />
+        <Route path="/novena/villancicos/peces" element={<Peces />} />
+        <Route path="/novena/lectura-para-hoy/16" element={<DayOne />} />
+        <Route path="/novena/lectura-para-hoy/17" element={<DayTwo />} />
+        <Route path="/novena/lectura-para-hoy/18" element={<DayThree />} />
+        <Route path="/novena/lectura-para-hoy/19" element={<DayFour />} />
+        <Route path="/novena/lectura-para-hoy/20" element={<DayFive />} />
+        <Route path="/novena/lectura-para-hoy/21" element={<DaySix />} />
+        <Route path="/novena/lectura-para-hoy/22" element={<DaySeven />} />
+        <Route path="/novena/lectura-para-hoy/23" element={<DayEigth />} />
+        <Route path="/novena/lectura-para-hoy/24" element={<DayNine />} />
       </Routes>
     </Layout>
   );

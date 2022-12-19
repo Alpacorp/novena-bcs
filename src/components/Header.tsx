@@ -11,7 +11,7 @@ const Header: FC<HeaderProps> = ({ show }) => {
   const showBack = show;
   return (
     <div className="header">
-      {showBack ? <Back url="/" src={backButton} /> : ""}
+      {showBack ? <Back url="/novena" src={backButton} /> : ""}
     </div>
   );
 };

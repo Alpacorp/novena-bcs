@@ -7,7 +7,7 @@ const Nanita = () => {
     <>
       <Header show={false} />
       <div className="steps">
-        <Back url="/stepseven" src={backButtonIcon} />
+        <Back url="/novena/villancicos" src={backButtonIcon} />
         <h2>La Nanita Nana</h2>
         <div className="stepText sings">
           <div className="text-sing">

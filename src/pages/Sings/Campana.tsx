@@ -7,7 +7,7 @@ const Campana = () => {
     <>
       <Header show={false} />
       <div className="steps">
-        <Back url="/stepseven" src={backButtonIcon} />
+        <Back url="/novena/villancicos" src={backButtonIcon} />
         <h2>Campana sobre campana</h2>
         <div className="stepText sings">
           <div className="text-sing">
